@@ -17,7 +17,7 @@ The app focuses on everyday money awareness rather than banking workflows. Users
 <img width="300" alt="Screenshot_20260403_193039" src="https://github.com/user-attachments/assets/b9fbe3d5-a355-4dd8-b8ef-5a53f03d9565" />
 <img width="300" alt="Screenshot_20260403_193029" src="https://github.com/user-attachments/assets/d55c5ff5-d673-4291-b9c1-238fea2cbfe1" />
 <img width="300" alt="Screenshot_20260403_193020" src="https://github.com/user-attachments/assets/df5f47f5-ec44-493d-9627-a8d48e106fa8" />
-<img width="300" alt="Screenshot_20260403_193006" src="https://github.com/user-attachments/assets/71ee3cb8-fa12-48d7-94eb-7bab932360e1" />
+<img width="300" alt="Screenshot_20260403_201628" src="https://github.com/user-attachments/assets/cb1bd21e-ea29-4e13-ab19-f7f22e3afcd9" />
 <img width="300" alt="Screenshot_20260403_192946" src="https://github.com/user-attachments/assets/10b692e4-d9a3-4d3a-ae36-9f78a2024840" />
 
 
