@@ -12,6 +12,22 @@ The app focuses on everyday money awareness rather than banking workflows. Users
 - Track a savings goal
 - Explore insights such as weekly spending, expense breakdown, cash-flow split, and pie-chart category distribution
 
+
+## Screenshots
+<img width="300" alt="Screenshot_20260403_193039" src="https://github.com/user-attachments/assets/b9fbe3d5-a355-4dd8-b8ef-5a53f03d9565" />
+<img width="300" alt="Screenshot_20260403_193029" src="https://github.com/user-attachments/assets/d55c5ff5-d673-4291-b9c1-238fea2cbfe1" />
+<img width="300" alt="Screenshot_20260403_193020" src="https://github.com/user-attachments/assets/df5f47f5-ec44-493d-9627-a8d48e106fa8" />
+<img width="300" alt="Screenshot_20260403_193006" src="https://github.com/user-attachments/assets/71ee3cb8-fa12-48d7-94eb-7bab932360e1" />
+<img width="300" alt="Screenshot_20260403_192946" src="https://github.com/user-attachments/assets/10b692e4-d9a3-4d3a-ae36-9f78a2024840" />
+
+
+https://github.com/user-attachments/assets/1713c278-38e4-4b7e-82ea-ce598e571f2a
+
+
+
+
+
+
 ## Tech Stack
 
 - Kotlin
@@ -76,64 +92,8 @@ The project follows a layered structure:
 
 State is exposed from `FinanceDashboardViewModel` using `StateFlow`, while persistence is handled locally through Room for offline-first behavior.
 
-## Project Structure
 
-Key files:
 
-- [`MainActivity.kt`](L:/Android%20Projects/ExpenseTracker/app/src/main/java/com/cosmic_struck/expensetracker/MainActivity.kt)
-- [`MainNavGraph.kt`](L:/Android%20Projects/ExpenseTracker/app/src/main/java/com/cosmic_struck/expensetracker/ui/navigation/MainNavGraph.kt)
-- [`FinanceDashboardViewModel.kt`](L:/Android%20Projects/ExpenseTracker/app/src/main/java/com/cosmic_struck/expensetracker/ui/viewmodel/FinanceDashboardViewModel.kt)
-- [`ExpenseTrackerDatabase.kt`](L:/Android%20Projects/ExpenseTracker/app/src/main/java/com/cosmic_struck/expensetracker/data/local/database/ExpenseTrackerDatabase.kt)
-- [`OfflineFirstFinanceRepository.kt`](L:/Android%20Projects/ExpenseTracker/app/src/main/java/com/cosmic_struck/expensetracker/data/repository/OfflineFirstFinanceRepository.kt)
-
-## How to Run
-
-### Requirements
-
-- Android Studio
-- Android SDK matching the project configuration
-- JDK 11+
-
-### Steps
-
-1. Open the project in Android Studio.
-2. Let Gradle sync complete.
-3. Run the app on an emulator or Android device.
-
-From the command line:
-
-```powershell
-.\gradlew.bat assembleDebug
-```
-
-## Data Handling
-
-- Transactions and goals are stored locally using Room.
-- The app is offline-first and does not require a backend to function.
-- UI state reacts automatically to data changes via Flow and ViewModel state collection.
-
-## UX Notes
-
-- The UI is optimized for mobile usage and touch interaction.
-- Empty states are included for transactions and goals.
-- Transaction deletion uses swipe interaction for a more native mobile feel.
-- Editing is designed to be fast by tapping an existing transaction row.
-
-## Known Gaps / Future Improvements
-
-- Transaction search and filters can be added
-- Better loading and error states can be introduced
-- Dark mode can be added
-- Export, reminders, and notifications can be added later
-- Swipe-to-delete currently uses a deprecated Compose callback API and can be modernized in a future pass
-
-## Assumptions
-
-- The app uses local storage only
-- Savings goal progress is based on current balance
-- Only one primary savings goal is actively managed in the current experience
-
-## Submission Notes
 
 This project was built as a practical personal finance companion app with emphasis on:
 
